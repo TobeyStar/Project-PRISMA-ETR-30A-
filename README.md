@@ -22,37 +22,17 @@ This core acts as a **Harmonic Step-Down Transformer**: through non-linear phono
 
 ## 📐 Core Architecture & System Topology 
 
-+───────────────────────────────────────────────────────+
-|                TOROIDAL CORE SUBSTRATE                |
-+───────────────────────────────────────────────────────+
-                            │
-            ┌───────────────┴───────────────┐
-            ▼                               ▼
-+───────────────────────+       +───────────────────────+
-| Bimetallic Winding    |       | Bimetallic Winding    |
-| 30° Vector Angle (CW) |       | 30° Vector Angle (CCW)|
-+───────────────────────+       +───────────────────────+
-            └───────────────┬───────────────┘
-                            ▼
-+───────────────────────────────────────────────────────+
-|         GEOMETRIC FIELD ASYMMETRY (B ≈ 0)             |
-+───────────────────────────────────────────────────────+
-                            │
-                            ▼
-+───────────────────────────────────────────────────────+
-|               THE QUANTUM PRISMA CORE                 |
-|       Anisotropic Pure α-Quartz (c-axis Aligned)      |
-+───────────────────────────────────────────────────────+
-                            │
-                            ▼
-+───────────────────────────────────────────────────────+
-|         INVERSE PIEZOELECTRIC RESONANCE LOCK          |
-+───────────────────────────────────────────────────────+
-                            │
-                            ▼
-+───────────────────────────────────────────────────────+
-|                COHERENT ENERGY HARVEST                |
-+───────────────────────────────────────────────────────+
+flowchart TD
+    A[TOROIDAL CORE SUBSTRATE] --> B1[Bimetallic Winding - 30° Vector CW]
+    A --> B2[Bimetallic Winding - 30° Vector CCW]
+    
+    B1 --> C[GEOMETRIC FIELD ASYMMETRY: B ≈ 0]
+    B2 --> C
+    
+    C --> D[THE QUANTUM PRISMA CORE<br/>Anisotropic Pure α-Quartz Core]
+    D --> E[INVERSE PIEZOELECTRIC RESONANCE LOCK]
+    E --> F[COHERENT ENERGY HARVEST]
+
 
 
 
