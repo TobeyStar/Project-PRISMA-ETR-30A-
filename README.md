@@ -1,87 +1,95 @@
-# 🌈 PROJECT PRISMA (ETR-30A)
+# 🌈 PROJECT PRISMA
 
 [![License: CC BY-SA 4.0](https://img.shields.org/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![Hardware: Open-Source](https://img.shields.org/badge/Hardware-Open--Source-blue.svg)](#)
 [![Status: Experimental](https://img.shields.org/badge/Status-Experimental--Hypothesis-orange.svg)](#)
 
-**Project PRISMA** (*Precision Refractive Interface for Solid-State Vacuum Manifestation Architecture*, Model **ETR-30A**) is an open-source hardware specification and theoretical framework for solid-state quantum vacuum energy harvesting.
+**Project PRISMA** (*Precision Refractive Interface for Solid-State Vacuum Manifestation Architecture*) is an open-source hardware specification based on theoretical physics and material science synthesis of zero-point energy (ZPE) harvesting systems.
 
 ---
 
-## 💎 The PRISMA Metaphor & Core Principle
+## 💎 The PRISMA Principle: Quantum Vacuum Refraction
 
-In classical optics, a pure glass prism receives **unformed white light**—a chaotic, invisible blend of all color frequencies—and refracts it into a structured, coherent spectrum of visible light.
+In classical optics, a pure glass prism receives **unformed white light**—a chaotic blend of all frequencies—and refracts it into a structured, coherent spectrum of visible light.
 
-**Project PRISMA applies this exact mechanism to quantum electrodynamics:**
+Project PRISMA applies this mechanism to quantum vacuum electrodynamics:
 
-The zero-point energy (ZPE) field of the quantum vacuum represents an unformed "white noise" of ultra-high frequency fluctuations (Terahertz to Planck scales). At the geometric vortex center of the ETR-30A lies an ultra-pure, defect-free **synthetic $\alpha$-quartz crystal**. 
+The zero-point energy (ZPE) field represents an unformed baseline of ultra-high frequency vacuum fluctuations (Terahertz to Planck scales). Positioned at the geometric vortex center of an asymmetric toroidal winding is an anisotropic **pure synthetic $\alpha$-quartz crystal** ($\alpha\text{-SiO}_2$). 
 
-This core acts as a **Quantum Prism**: it intercepts chaotic, raw vacuum flucuations and—through non-linear phononic interactions and inverse piezoelectric coupling—refracts them down into a single, highly coherent, usable harmonic output at **$1.618\text{ MHz}$** (the Golden Ratio resonance $\phi$).
+This core acts as a **Harmonic Step-Down Transformer**: through non-linear phononic interactions and inverse piezoelectric coupling, it intercepts chaotic, high-frequency ZPE modes and refracts them down into lower, coherent, and usable electromagnetic oscillations.
 
 ---
 
-## 🗝️ Key Technical Innovations
+## 📐 Core Architecture & System Topology
 
-1. **The Quantum Prism Core ($\alpha\text{-SiO}_2$):**  
-   An ultra-pure, molecularly clean synthetic alpha-quartz cylinder cut precisely parallel to the optical c-axis. Functions as a frequency-refracting medium with $Q > 1200$, down-stepping Terahertz vacuum modes to coherent $1.618\text{ MHz}$ electrical oscillations.
++-----------------------------------+
+|      Toroidal Core Substrate      |
++-----------------------------------+
+|
++-----------------------+-----------------------+
+|                                               |
+v                                               v
++-------------------+                           +-------------------+
+| Bimetallic Wire   |                           | Bimetallic Wire   |
+| (Cu Bulk Core /   |                           | (Cu Bulk Core /   |
+|  Ag Cladding)     |                           |  Ag Cladding)     |
+| 30° Vector Angle  |                           | 30° Vector Angle  |
++-------------------+                           +-------------------+
+\                                               /
+--> [ Geometric Field Asymmetry: B ≈ 0 ] <--/
+|
+v
++---------------------------------+
+|    THE QUANTUM PRISMA CORE      |
+| Anisotropic Pure α-Quartz Core  |
+| (Optical c-axis aligned)        |
++---------------------------------+
+|
+[ Inverse Piezoelectric Lock ]
+|
+[ Coherent Energy Harvest ]
 
-2. **Vortex-Based $30^\circ$ Vector Windings:**  
-   Winding a bimetallic conductor through the central aperture at an angle $30^\circ$ short of a direct radial cross-section forces electrons along the path of minimum reluctance. This collapses the external radiated magnetic field ($B \approx 0$), trapping an asymmetric vector potential ($\mathbf{A}$) in an **anapole state**.
+---
 
-3. **Cu-Ag Bimetallic Skin-Effect Layering:**  
-   Combines a high-purity copper substrate for thermal dissipation ($401\text{ W/m}\cdot\text{K}$) and magnetic grounding with an ultra-pure silver surface cladding. High-frequency AC ($1.618\text{ MHz}$) travels exclusively through the silver skin layer, eliminating $I^2R$ ohmic heating losses.
+## 🗝️ Key Technical Foundations (From Research)
 
-4. **Self-Sustaining $33\%$ Closed-Loop Feedback:**  
-   At resonance, $33\%$ of the output voltage is rectified via high-speed SiC/GaN circuitry and fed back into the primary toroidal drive stage to sustain autonomous operation.
+1. **Anisotropic Alpha-Quartz Core ($\alpha\text{-SiO}_2$):**  
+   Positioned at the geometric vortex center with its optical/electrical c-axis aligned with the toroidal vortex vector. Functions as a high-Q piezoelectric frequency stabilizer and non-linear phononic step-down resonator.
+
+2. **$30^\circ$ Vortex Vector Windings:**  
+   Coil conductors are wrapped through the central aperture at an angle $30^\circ$ short of a direct radial cross-section. This forces electrons along the path of minimum reluctance, minimizing back-EMF and collapsing radiated magnetic fields ($B \approx 0$) to form an **anapole state** with a non-zero magnetic vector potential ($\mathbf{A}$).
+
+3. **Cu-Ag Bimetallic Skin-Effect Optimization:**  
+   Pairs a high-conductivity copper core ($401\text{ W/m}\cdot\text{K}$) for thermal dissipation and magnetic grounding with an ultra-pure silver surface cladding ($1\text{--}10\ \mu\text{m}$). High-frequency currents route through the silver skin layer, eliminating $I^2R$ ohmic heating losses.
+
+4. **Dynamic High-Voltage Pulse Drive:**  
+   Utilizes high-voltage AC pulse excitation ($10\text{ kV} - 30\text{ kV}$) swept across resonance frequencies ($10\text{ kHz} - 1\text{ MHz}$) to induce localized vacuum polarization and harvest net power.
 
 ---
 
 ## 🗂️ Repository Structure
 
-Detailed documentation, hardware specifications, and laboratory protocols are organized in the `/docs` directory:
-
-* 📄 **[`docs/01_THEORY.md`](docs/01_THEORY.md)** – Quantum Vacuum Refraction, Maxwell-Anapole Geometries, and Thermodynamic Principles.
-* 📄 **[`docs/02_HARDWARE_BOM.md`](docs/02_HARDWARE_BOM.md)** – Crystal Purity Standards, Ferrite Core Metrics, and Material Specifications.
-* 📄 **[`docs/03_CIRCUITRY.md`](docs/03_CIRCUITRY.md)** – $1.618\text{ MHz}$ DDS Drive Circuit, GaN Rectification, and Feedback Loop.
-* 📄 **[`docs/04_TEST_PROTOCOL.md`](docs/04_TEST_PROTOCOL.md)** – Step-by-step Laboratory Validation, Faraday Isolations, and Calorimetric Energy Logging.
+* 📄 **[`docs/01_THEORY.md`](docs/01_THEORY.md)** – Quantum Vacuum Refraction, Anapole States, Topological Insulators, and Non-Hertzian Waves.
+* 📄 **[`docs/02_HARDWARE_BOM.md`](docs/02_HARDWARE_BOM.md)** – Material Specifications (Cu-Ag Bimetallic, Alpha-Quartz, Toroidal Cores).
+* 📄 **[`docs/03_CIRCUITRY.md`](docs/03_CIRCUITRY.md)** – High-Voltage Pulse Generator, Frequency Sweep Controllers, and Harvesting Diodes.
+* 📄 **[`docs/04_TEST_PROTOCOL.md`](docs/04_TEST_PROTOCOL.md)** – Laboratory Setup, Vector Potential Measurement, and Faraday Cage Validation.
 
 ---
 
-## ⚡ Technical Specifications
+## ⚡ Core Technical Parameters
 
-| Parameter | Value / Target |
-| :--- | :--- |
-| **Project Codename** | **PRISMA** (Model: ETR-30A) |
-| **Resonance Frequency ($f_0$)** | $1.618\text{ MHz}$ (Golden Ratio $\phi$ Lock) |
-| **Core Medium** | Ultra-Pure Synthetic $\alpha$-Quartz (Zero Molecular Defects) |
-| **Toroid Substrate** | Nanocrystalline Finemet / Metglas ($\mu_r \ge 10\,000$) |
-| **Winding Geometry** | 144 turns, $30^\circ$ counter-rotating bimetallic (Cu/Ag, $1.0\text{ mm}$) |
-| **External Radiation** | $B \approx 0$ (Anapole state / Near-field vector potential) |
-| **Piezoelectric Q-Factor** | $> 1200$ |
-| **Feedback Loop Ratio** | $33\%$ internal power recycle / $67\%$ net external load |
-
----
-
-## 🔬 Call for Independent Collaboration
-
-Project PRISMA is released as an open hardware specification to enable independent university labs, RF engineers, and material scientists to build, measure, and validate non-equilibrium quantum vacuum coupling.
-
-**We invite contributions for:**
-* **RF & Power Electronics:** Optimization of the $1.618\text{ MHz}$ GaN feedback driver.
-* **Crystallography & Materials Science:** Testing crystal purity thresholds and phonon coupling.
-* **Metrology:** Faraday cage vector potential measurement and calorimetric logging.
+| Parameter | Specification | Source Grounding |
+| :--- | :--- | :--- |
+| **Project Codename** | **PRISMA** | Open-source concept |
+| **Core Material** | Pure Synthetic $\alpha$-Quartz ($\alpha\text{-SiO}_2$) | Aligned along optical c-axis |
+| **Winding Geometry** | Counter-rotating $30^\circ$ helical windings | Minimizes back-EMF & reluctance |
+| **Conductor Composition** | Bimetallic Copper Core + Silver Cladding | $1\text{--}10\ \mu\text{m}$ Ag skin layer |
+| **Field Dynamics** | Anapole State ($B \approx 0$, $\mathbf{A} \neq 0$) | Aharonov-Bohm active potential |
+| **Excitation Range** | $10\text{ kHz} - 1\text{ MHz}$ (Swept) / $10\text{--}30\text{ kV}$ | High-voltage AC pulse drive |
+| **Harvesting Yield** | Scalable ($20\text{ mW} - 2.5\text{ W}$ baseline test) | Diode bridge to capacitors |
 
 ---
 
 ## 📜 License
 
-This work and all associated hardware specifications are licensed under a **[Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)**.
-
-### You are free to:
-* **Share** — copy and redistribute the material in any medium or format.
-* **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
-
-### Under the following terms:
-* **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-* **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-
+This work is licensed under a **[Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)**.
