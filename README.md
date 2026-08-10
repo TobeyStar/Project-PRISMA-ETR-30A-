@@ -20,34 +20,41 @@ This core acts as a **Harmonic Step-Down Transformer**: through non-linear phono
 
 ---
 
-## 📐 Core Architecture & System Topology
+## 📐 Core Architecture & System Topology 
 
-+-----------------------------------+
-|      Toroidal Core Substrate      |
-+-----------------------------------+
-|
-+-----------------------+-----------------------+
-|                                               |
-v                                               v
-+-------------------+                           +-------------------+
-| Bimetallic Wire   |                           | Bimetallic Wire   |
-| (Cu Bulk Core /   |                           | (Cu Bulk Core /   |
-|  Ag Cladding)     |                           |  Ag Cladding)     |
-| 30° Vector Angle  |                           | 30° Vector Angle  |
-+-------------------+                           +-------------------+
-\                                               /
---> [ Geometric Field Asymmetry: B ≈ 0 ] <--/
-|
-v
-+---------------------------------+
-|    THE QUANTUM PRISMA CORE      |
-| Anisotropic Pure α-Quartz Core  |
-| (Optical c-axis aligned)        |
-+---------------------------------+
-|
-[ Inverse Piezoelectric Lock ]
-|
-[ Coherent Energy Harvest ]
++───────────────────────────────────────────────────────+
+|                TOROIDAL CORE SUBSTRATE                |
++───────────────────────────────────────────────────────+
+                            │
+            ┌───────────────┴───────────────┐
+            ▼                               ▼
++───────────────────────+       +───────────────────────+
+| Bimetallic Winding    |       | Bimetallic Winding    |
+| 30° Vector Angle (CW) |       | 30° Vector Angle (CCW)|
++───────────────────────+       +───────────────────────+
+            └───────────────┬───────────────┘
+                            ▼
++───────────────────────────────────────────────────────+
+|         GEOMETRIC FIELD ASYMMETRY (B ≈ 0)             |
++───────────────────────────────────────────────────────+
+                            │
+                            ▼
++───────────────────────────────────────────────────────+
+|               THE QUANTUM PRISMA CORE                 |
+|       Anisotropic Pure α-Quartz (c-axis Aligned)      |
++───────────────────────────────────────────────────────+
+                            │
+                            ▼
++───────────────────────────────────────────────────────+
+|         INVERSE PIEZOELECTRIC RESONANCE LOCK          |
++───────────────────────────────────────────────────────+
+                            │
+                            ▼
++───────────────────────────────────────────────────────+
+|                COHERENT ENERGY HARVEST                |
++───────────────────────────────────────────────────────+
+
+
 
 ---
 
