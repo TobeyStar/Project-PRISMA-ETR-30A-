@@ -22,16 +22,21 @@ This core acts as a **Harmonic Step-Down Transformer**: through non-linear phono
 
 ## 📐 Core Architecture & System Topology 
 
-flowchart TD
-    A[TOROIDAL CORE SUBSTRATE] --> B1[Bimetallic Winding - 30° Vector CW]
-    A --> B2[Bimetallic Winding - 30° Vector CCW]
-    
-    B1 --> C[GEOMETRIC FIELD ASYMMETRY: B ≈ 0]
-    B2 --> C
-    
-    C --> D[THE QUANTUM PRISMA CORE<br/>Anisotropic Pure α-Quartz Core]
-    D --> E[INVERSE PIEZOELECTRIC RESONANCE LOCK]
-    E --> F[COHERENT ENERGY HARVEST]
+
+1. ​Toroidal Core Substrate
+└─ Dual Counter-Rotating Bimetallic Windings (30^\circ Vector Angle)
+
+3. ​Geometric Field Asymmetry (B \approx 0)
+└─ Anapole state formation with active vector potential (\mathbf{A})
+
+4. ​The Quantum PRISMA Core
+└─ Anisotropic Pure \alpha-Quartz Crystal (Optical c-axis Aligned)
+
+​5. Inverse Piezoelectric Resonance Lock
+└─ Harmonic step-down transformation of vacuum modes
+
+6. ​Coherent Energy Harvest
+└─ Output power collection via high-voltage pulse harvesting
 
 
 
